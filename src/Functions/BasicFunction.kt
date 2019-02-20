@@ -7,18 +7,18 @@ package Functions
 │ ─────────────────────────── │
 │ okan.aydin@isik.edu.tr      │
 │ ─────────────────────────── │
-│ 20.02.2019 - 15:48          │
+│ 20.02.2019 - 16:36          │
 └─────────────────────────────┘
  */
 
 fun main() {
 
-    var sumResult = 9.sum(4) // 9+4=13
-    println(sumResult)
+    var sumValues = sum(2, 10)
 
-    var sumResult2 = 10.sum(5).sum(5) // 10+5+5=20
-    println(sumResult2)
+    println("Sum is : $sumValues")
 
 }
 
-fun Int.sum(value: Int): Int = this + value
+fun sum(a: Int, b: Int): Int {
+    return a + b
+}

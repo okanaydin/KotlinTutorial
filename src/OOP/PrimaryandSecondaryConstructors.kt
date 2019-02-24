@@ -30,8 +30,8 @@ fun main() {
 
     val newsIntance2: News? = null
 
-    val newsIntance3: News = News(1002, "Magazine", "Bob id dead")
+    val newsIntance3: News = News(1002, "Magazine", "Bob is dead")
 
-    val newsIntance4: News = News(newsID = 1002, newsURL = "Magazine", newsTitle = "Bob id dead")
+    val newsIntance4: News = News(newsID = 1002, newsURL = "Magazine", newsTitle = "Bob is dead")
 
 }

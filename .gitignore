@@ -1,4 +1,6 @@
-# Created by .ignore support plugin (hsz.mobi)
+
+# Created by https://www.gitignore.io/api/kotlin
+# Edit at https://www.gitignore.io/?templates=kotlin
 
 ### Kotlin ###
 # Compiled class file
@@ -25,7 +27,4 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
-
 # End of https://www.gitignore.io/api/kotlin
-.idea/
-out/production/Kotlin With Love/META-INF/

@@ -56,3 +56,18 @@
     * List
     * Map and HashMap
     * Set and HashSet
+    
+* Data Structures
+    * Stack
+    * Queue
+    * Linked List
+    * Binary Search Tree
+    * Heap
+    * Hash Table
+    
+* Algorithms
+    * Recursion
+    * Quick Sort
+    * Merge Sort
+    * Bubble Sort
+    * Graph Search

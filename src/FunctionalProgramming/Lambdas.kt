@@ -11,4 +11,18 @@ package FunctionalProgramming
 └─────────────────────────────┘
  */
 
-// TODO
+fun main() {
+
+    val helloText = { println("Hello World!") }
+
+    helloText()         // invoking function
+
+
+    //Lambda with parameters
+
+    val sum = { a: Int, b: Int -> a + b }
+    val result = sum(10, 5)
+
+    println(result)
+
+}

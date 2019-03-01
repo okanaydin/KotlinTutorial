@@ -2,12 +2,13 @@
 <img src="image.png" width="700">
 
 ## Topics
+
 * Data Types and Variables
     * Data Types and Variables
     * String, Literals and String Interpolation
     * Comments
     
-* Control Flow Statements
+* [Control Flow Statements](https://github.com/okanaydin/KotlinTutorial/tree/master/src/ControlFlowStatements) 
     * if-else Expressions
     * WHEN Expressions
     * Ranges
@@ -51,6 +52,7 @@
     * 'with' function
     * 'apply' function
     
+##TODO
 * Collections Programming
     * Arrays
     * List

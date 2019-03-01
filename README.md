@@ -3,7 +3,6 @@
 
 ## Topics
 
-<<<<<<< HEAD
 * [Data Types and Variables](https://github.com/okanaydin/KotlinTutorial/tree/master/src/DataTypesandVariables)
     * [Data Types and Variables](https://github.com/okanaydin/KotlinTutorial/blob/master/src/DataTypesandVariables/Variables.kt)
     * [Comments](https://github.com/okanaydin/KotlinTutorial/blob/master/src/DataTypesandVariables/Comments.kt)

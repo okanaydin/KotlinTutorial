@@ -23,9 +23,28 @@ fun main() {
         Car("Renault", 180)
     )
 
-    val selectedCar = cars.maxBy { car -> car.speed }
+    val selectedCar = cars.maxBy { car -> car.speed } // maxBy is higher-order func.
 
     println(selectedCar)
     println("brand: ${selectedCar?.name}")
     println("speed: ${selectedCar?.speed}")
+
+    println("******* Another Example ********")
+
+    //another example
+    numberToString { number: Int, name: String ->
+        println("Your id: $number \nYour name: $name")
+    }
+
+}
+
+//another example
+fun numberToString(higherOrderFunction: (number: Int, name: String) -> Unit) {
+
+    println("Hello !")
+
+    higherOrderFunction(1001, "OKAN")
+
+    println("Welcome")
+
 }
